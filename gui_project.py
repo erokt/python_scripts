@@ -7,14 +7,14 @@ import sys
 import os
 
 top = Tkinter.Tk()
-top.title('ShortKeys')
+top.title('PyKeys')                   #Title needs some help..
 
 #Creating my message box data string.
 data1 = ("Hello Everyone\n\nWelcome to our first venture into creating a GUI!!!")
 data2 = ("\n\nIf you want to know how I did this, go to this website:")
 data3 = ("\n\nhttps://www.tutorialspoint.com/python/python_gui_programming.htm")
 data = data1 + data2 + data3
-xdata = ("Did my new button open this?")
+xdata = ("Did my new button open this?")     #no longer necessary...must clean this up.
 #define the following.
 def helloCallBack():
     tkMessageBox.showinfo( "About This Program", '%s' % data)
