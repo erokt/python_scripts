@@ -1,0 +1,4 @@
+- Work on script to include an os.path parameter
+- Pull in the old python scripts from disk to add
+  functionality to GUI script
+- Try and make the URL clickable in the About section
