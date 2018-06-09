@@ -23,6 +23,8 @@ https://www.tutorialspoint.com/python/python_gui_programming.htm
 def aboutCallBack():
 	tkMessageBox.showinfo( "About", '%s' % data)
 
+# Need to change these functions. Use something like a defined os.path since
+# all files are in the same path.
 def vupdateCallBack():
 	os.system('/home/usrname/Documents/ShortKeys/ttvup.py')
 	print "Done...But keep terminal open!"
