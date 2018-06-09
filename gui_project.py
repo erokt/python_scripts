@@ -5,15 +5,17 @@ import Tkinter
 import tkMessageBox
 import os
 import sys
+import urllib
 
 top = Tkinter.Tk()
 top.title("PyKeys")
 
 #Creating my message box data string.
-data1 = ("Hello Everyone\n\nWelcome to our first venture into creating a GUI!!!")
-data2 = ("\n\nIf you want to know how I did this, go to this website:")
-data3 = ("\n\nhttps://www.tutorialspoint.com/python/python_gui_programming.htm")
-data = data1 + data2 + data3
+data = """
+Hello Everyone\n\nWelcome to our first venture into creating a GUI!!!
+\n\nIf you want to know how I did this, go to this website:\n\n
+https://www.tutorialspoint.com/python/python_gui_programming.htm
+"""
 #define the following.
 def aboutCallBack():
 	tkMessageBox.showinfo( "About", '%s' % data)
